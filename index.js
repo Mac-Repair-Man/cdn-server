@@ -19,6 +19,7 @@ app.get("/*", (req, res) => {
     });
 });
 
+// App listens to the specified port
 app.listen(port, () => {
     console.log(`Server is running on port http://localhost:${port}/`);
 });
