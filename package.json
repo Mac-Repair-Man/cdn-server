@@ -1,0 +1,26 @@
+{
+  "name": "cdn-server",
+  "version": "1.0.0",
+  "description": "content delivery network that runs locally",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mac-Repair-Man/cdn-server.git"
+  },
+  "keywords": [
+    "cdn"
+  ],
+  "author": "David Anton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mac-Repair-Man/cdn-server/issues"
+  },
+  "homepage": "https://github.com/Mac-Repair-Man/cdn-server#readme",
+  "dependencies": {
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0"
+  }
+}
